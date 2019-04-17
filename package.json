@@ -1,0 +1,16 @@
+{
+  "name": "heroku_code_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calling_promies_asyn_example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node heroku_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.4"
+  }
+}
