@@ -14,6 +14,10 @@ hbs.registerHelper('message', (text) => {
     return text.toUpperCase();
 })
 
+app.get('/', (request,response) => {
+    response.redirect('/main');
+})
+
 //An example of serving 1 hbs website to 3 different urls
 //With each page pointing to the right page
 app.get('/main', (request, response) =>{
